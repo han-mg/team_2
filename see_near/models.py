@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class seenear_user(models.Model):
-    user_id=models.TextField(max_length=100)
+    user_id=models.TextField(max_length=200)
     password=models.TextField(max_length=200)
     nickname=models.TextField(max_length=200)
     user_name=models.TextField(max_length=200)
